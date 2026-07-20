@@ -15,12 +15,12 @@
             "filename": "../../introduction/introduction.md"
         },
         {
-            "title": "Lab 1: Leveraging Gen-AI to build loan officer dashboard and forecasting to meet target",
+            "title": "Lab 1: Leveraging Gen-AI to build bank construction dashboard and forecasting to generate insights",
             "description": "Labs that follow the introduction are numbered, starting with Lab 1",
             "filename": "../../../Lab-1/Lab-1.md"
         },
         {
-            "title": "Lab 2: Insights from Loan Manager portfolio viewpoint based on Auto Insights and Classical ML",
+            "title": "Lab 2: Leveraging Gen-AI to construction portfolio bank dashboard to generate insights",
             "filename": "../../../Lab-2/Lab-2.md"
         },
         
