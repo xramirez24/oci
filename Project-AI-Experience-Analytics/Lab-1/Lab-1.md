@@ -2,104 +2,158 @@
 
 ## Introduction
 
-Oracle Fusion AI Data Platform (FUSION AIDP) Platform is a suite of prebuilt, cloud-native analytics applications designed for Oracle Cloud Applications. It delivers ready-to-use insights that help line-of-business users make better decisions and drive business performance.
-Built on Oracle Analytics Cloud and Oracle Autonomous Data Warehouse, the Fusion AIDP provides best-practice Key Performance Indicators (KPIs) and in-depth analyses that empower both decision-makers and individual contributors.
+Oracle Fusion Data Intelligence (FDI) is a suite of prebuilt, cloud-native analytics applications designed for Oracle Cloud Applications. It delivers ready-to-use insights that help line-of-business users make better decisions and drive business performance.
+
+Built on Oracle Analytics Cloud and Oracle Autonomous Data Warehouse, the FDI provides best-practice Key Performance Indicators (KPIs) and in-depth analyses that empower both decision-makers and individual contributors.
 
 The service begins with Oracle Fusion Cloud Applications, which can be rapidly deployed, personalized, and extended. It automatically extracts data from these applications and loads it into an Oracle Autonomous Data Warehouse instance. Business users can then create and tailor dashboards in Oracle Analytics Cloud, leveraging AI-powered, self-service analytics for data preparation, visualization, reporting, augmented analysis, and natural language queries.
 
 This lab enables business users to explore data, investigate trends, and uncover patterns or outliers, helping them turn insights into action.
 
 
+
 ### Objectives
 
-Leveraging Gen-AI to build loan officer dashboard and forecasting to meet target
+Leveraging Gen-AI to build bank construction dashboard and forecasting to generate insights
 
 
 ## Lab 1
 
-1. Step 1 - Login to your Fusion AI Data Platform environment using the URL provided. Open a web browser and enter the URL provided, then on the login screen, type in the Username and Password. Click “Sign In”.
+1. Step 1 - Login to your Fusion Data Intelligence environment using the URL provided. Open a web browser and enter the URL provided, then on the login screen, type in the Username and Password. Click “Sign In”.
 
 
 	![Login Screen](images/Picture1.png)
 
-2. Step 2 - On the top right click the menu tile and then select data.
+2. Step 2 - On the KPI Watchlist, hover on Cost Variance by Month, Bank tile and click on Open Workbook Icon
 
   ![Select Data](images/Picture2.png)
 
-3. Step 3 - Click on Loan Master data set
+3. Step 3 - Click on Edit 
 
   ![Master Data Set](images/Picture3.png)
 
-4. Step 4 - Click on top gray bar on the right the Auto Insights Icon and then go to the “Assistant” tab
+4. Step 4 - Click on top gray bar on the right that says Auto Insights Icon (Looks like three starts). 
 
   ![AI Assistant](images/Picture4.png)
 
-5. Step 5 - Type the question in the chat “What is my loan amount by month?” It will generate the following chart.
+5. Step 5 - To add Chat hover over visualization and select + sign icon. This will add chart to canvas.
 
   ![Prompt](images/Picture5.png)
 
-6. Step 6 - Let’s add our Target to the chart. Type in chat bar “add Target”.
+6. Step 6 - Click Canvas 2.
 
   ![Add Target](images/Picture6.png)
 
-7. Step 7 - Hover over visualization and hit the “+” sign to add to canvas.
+7. Step 7 - Right click on Risk Level and elect Explain Risk Level. Hover over visualization and click the “+” sign to add to canvas.
+
 
   ![Add to Canvas](images/Picture7.png)
 
-8. Step 8 - Next type in chat “loan amount by industry”. Hit enter, and a chart will generate.
+8. Step 8 - Click on green arrow. Then click on Add Selected Button to add to Canvas.
 
   ![Image alt text](images/Picture8.png)
 
-9. Step 9 - Let’s change the chart to a pie chart by typing “change to pie chart” in text box and hit enter.
+9. Step 9 - From the drop-down menu in the grammar pane, select the stacked bar chart icon.
 
   ![Image alt text](images/Picture9.png)
 
-10. Step 10 - Let’s add this pie chart to our canvas by hovering over visualization and click on “+” sign from menu popping up.
+10. Step 10 - Drag and drop Risk Level by Open Change Orders object next the first object.
 
   ![Image alt text](images/Picture10.png)
 
-11. Step 11 - To add payment terms chart, lets type “loan amount by requested term months”. Hit enter.
+11. Step 11 - Place cursor over Risk Level by Open Change Orders and change object type to Language Narrative.  Now you should see breakdown of the summary in natural language.
 
   ![Image alt text](images/Picture11.png)
 
-12. Step 12 - Let’s add more variables and change the chart type. Type “add industry and change to stacked bar chart”. Hit enter.
+12. Step 12 - Click on top gray bar on the right that says Auto Insights Icon (Looks like three starts). Click in Assistant Tab.
 
   ![Image alt text](images/Picture12.png)
 
-13. Step 13 - Add chart by hovering over visualization and click on the “+” sign.
+13. Step 13 - Type in “Show actual cost to date by report date week and bank client” and hit Enter
 
   ![Image alt text](images/Picture15.png)
 
-14. Step 14 - Let’s add our final chart and type “show me LTV Ratio and Business Age by Application ID”. Hit enter.
+14. Step 14 - Type in “Change to stacked bar chart” and hit Enter. Hover over the visualization and click the “+” sign to add to the canvas.
+
 
   ![Image alt text](images/Picture16.png)
 
-15. Step 15 - Add chart by hovering over the visualization and clicking on the “+” sign
+15. Step 15 - Type in “Show approved budget by build type” and hit Enter.
 
   ![Image alt text](images/Picture17.png)
 
-16. Step 16 - Close out the Auto Insights tab. From the data pane we will press the CTRL key button down (CMD on MacBook) along with clicking the following elements:  
-•	Application ID
-•	Loan Purpose
-•	Collateral Value
-•	Credit Score
-•	Region
-Drop those values into the dashboard and it will build a visualization for you. Then head to the middle pane and from the top drop-down list of visuals, select table
+16. Step 16 - Type in “change to Tree Map chart” and hit Enter. Hover over the visualization and click the “+” sign to add to canvas.
+
 
   ![Image alt text](images/Picture18.png)
 
-17. Step 17 - Click the Target line graph visualization and hover over it to select the three-dot menu and select “Add Statistics”.
+17. Step 17 - Type in “show next milestone by bank client” and hit Enter. Change the order of the table column.  Type in “swap order of columns” and hit Enter. Hover over the visualization and click the “+” sign to add to canvas.
+
 
   ![Image alt text](images/Picture19.png)
 
-18. Step 18 - Click on forecast from Add Statistics drop down menu
+18. Step 18 - Type in “show crew size by PM role” and hit Enter. Hover over the visualization and click the “+” sign to add to canvas.
+
 
   ![Image alt text](images/Picture20.png)
 
-19. Step 19 - Final Dashboard Analysis
+19. Step 19 - Type in “show open approvals and open RFIs by report date month” and hit Enter. Hover over the visualization and click the “+” sign to add to canvas. Close out Assistant by clicking on X in upper right corner of the assistant pane.
+
 
   ![Image alt text](images/Picture21.png)
 
+20. Step 20 - Now let’s explore how we can edit visualizations directly on the canvas
+
+
+![Image alt text](images/Picture22.png)
+
+21. Step 21 - Type in “show open approvals and open RFIs by report date month” and hit Enter. Hover over the visualization and click the “+” sign to add to canvas. Close out Assistant by clicking on X in upper right corner of the assistant pane.
+
+
+  ![Image alt text](images/Picture23.png)
+
+22. Step 22 - Place cursor on the chart object for Approved Budget by Build Type.   In the Grammar Panel, drag “Build Type” from Category (Boxes) to Color.
+
+
+23. Step 23 - Click on Properties icon and change Legend Position from Auto to None.
+
+
+  ![Image alt text](images/Picture24.png)
+
+24. Step 24 - Put cursor over the Open Approvals, Open RFIs ..chart.  Click on the 3 dot icon, and select Add Statistics, and then Forecast.
+
+
+  ![Image alt text](images/Picture25.png)
+
+25. Step 25 - The completed visualization should look like this screen shot.
+
+
+  ![Image alt text](images/Picture26.png)
+
+26. Step 26 - In the Data source panel, drag “Project Manager” field into the Filter area.
+
+
+  ![Image alt text](images/Picture27.png)
+
+27. Step 27 - In the lower right-hand corner, unclick on the two icons for Data and Grammar panels.  You should now see the enter dashboard.
+
+
+  ![Image alt text](images/Picture28.png) 
+
+28. Step 28 - Let’s start interacting with this dashboard by narrow down our filter by a project manager, and see any correction for Approved Budget by Build Type, Risk Level, Milestone, etc
+
+
+  ![Image alt text](images/Picture29.png)
+
+29. Step 29 - Click on the Risk Level by Project Status object, and right-click on the Delay bar, and select “Keep Selected”.  The dashboard should now look as follows.
+
+
+  ![Image alt text](images/Picture30.png) 
+
+30. Step 30 - Right click on the “Cedar Ridge Bank” and select “Keep Selected”
+
+
+  ![Image alt text](images/Picture31.png)
 
 
 ## Acknowledgements
