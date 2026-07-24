@@ -13,62 +13,62 @@ This lab enables business users to explore data, investigate trends, and uncover
 
 ### Objectives
 
-Leveraging Gen-AI to build bank construction dashboard and forecasting to generate insights
+Leveraging Gen-AI to construction portfolio bank dashboard to generate insights
 
 
 ## Lab 2
 
-1. Step 1 - Click on new Canvas
+1. Click on new Canvas
 
   ![Image alt text](images/Picture1.png)
 
-2. Step 2 - Go to AutoInsights tab, then Assistant tab, type the following prompt. Show approved budget and actual cost to date by city. Hit Enter button
+2. Go to AutoInsights tab, then Assistant tab, type the following prompt. Show approved budget and actual cost to date by city. Hit Enter button
 
 
   ![Image alt text](images/Picture2.png)
 
-3. Step 3 - Hover over visualization in Assistant and click on plus sign to add to canvas
+3. Hover over visualization in Assistant and click on plus sign to add to canvas
 
   ![Image alt text](images/Picture3.png)
 
-4. Step 4 - In Assistant add the following prompt: Show schedule complete % by bank client and risk level
+4. In Assistant add the following prompt: Show schedule complete % by bank client and risk level
 
 
   ![Image alt text](images/Picture4.png)
 
-5. Step 5 - In Assistant add the following prompt: Change to pivot table with Risk in columns, bank client in rows, % in values
+5. In Assistant add the following prompt: Change to pivot table with Risk in columns, bank client in rows, % in values
 
 
   ![Image alt text](images/Picture5.png)
 
-6. Step 6 - Hover over visualization in Assistant and click on plus sign to add to canvas 
+6. Hover over visualization in Assistant and click on plus sign to add to canvas 
 
   ![Image alt text](images/Picture6.png)
 
-7. Step 7 - In Assistant add prompt: Show budget variance percent by project status and bank client
+7. In Assistant add prompt: Show budget variance percent by project status and bank client
 
 
   ![Image alt text](images/Picture7.png)
 
-8. Step 8 - In Assistant add prompt: Change to a bar chart; variance is the value, project status is category, bank client is color
+8. In Assistant add prompt: Change to a bar chart; variance is the value, project status is category, bank client is color
 
 
   ![Image alt text](images/Picture8.png)
 
-9. Step 9 - Hover over visualization in Assistant and click on plus sign to add to canvas
+9. Hover over visualization in Assistant and click on plus sign to add to canvas
 
   ![Image alt text](images/Picture9.png)
 
-10. Step 10 - In Assistant add prompt: Show top 5 open approvals by project manager as a pie chart
+10. In Assistant add prompt: Show top 5 open approvals by project manager as a pie chart
 
 
   ![Image alt text](images/Picture10.png)
 
-11. Step 11 - Hover over visualization in Assistant and click on plus sign to add to canvas
+11. Hover over visualization in Assistant and click on plus sign to add to canvas
 
   ![Image alt text](images/Picture11.png)
 
-12. Step 12 - Final Dashboard Analysis
+12. Final Dashboard Analysis
 
   ![Image alt text](images/Picture12.png)
 
