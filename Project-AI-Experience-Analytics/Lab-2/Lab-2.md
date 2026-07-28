@@ -1,4 +1,4 @@
-# AI Powered Analytics with Oracle Fusion AI Data Platform
+# AI Powered Analytics with Oracle Fusion Data Intelligence
 
 ## Introduction
 
