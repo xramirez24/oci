@@ -130,7 +130,7 @@ Leveraging Gen-AI to build bank construction dashboard and forecasting to genera
 
   ![Image alt text](images/Picture26.png)
 
-26. SIn the Data source panel, drag “Project Manager” field into the Filter area.
+26. In the Data source panel, drag “Project Manager” field into the Filter area.
 
 
   ![Image alt text](images/Picture27.png)
@@ -140,7 +140,7 @@ Leveraging Gen-AI to build bank construction dashboard and forecasting to genera
 
   ![Image alt text](images/Picture28.png) 
 
-28. Let’s start interacting with this dashboard by narrow down our filter by a project manager, and see any correction for Approved Budget by Build Type, Risk Level, Milestone, etc
+28. Click on the Project Manager object in the data filter and select “Avery Collins”.   You should now see all the other visual charts change and filter for this project manager.
 
 
   ![Image alt text](images/Picture29.png)
